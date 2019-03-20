@@ -1,0 +1,1692 @@
+/*
+Theme Name:     Enfold Child
+Description:    Child theme for the Enfold theme
+Author:         Jane Higgins
+Author URI:     http://www.jhigginsdesign.com/
+Template:       enfold                             
+Version:        0.1.0
+*/
+
+/*
+------ Colors ------
+Primary = Green #9cb086;
+Highlight = Blue #65b3c7;
+
+Logo Area BG = #ffffff;
+Logo Area font = #444444;
+Logo Area secondary font = #808080;
+Logo Area Heading = #000000;
+
+Alternate BG = Lt Green #ecefe8;
+Border = #e1e1e1
+*/
+
+
+@import url("../enfold/style.css");
+
+body {
+	color: #444;
+	font: 14px/1.7em "Open Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* Fix for IE8 image display on News (blog) page
+.slide-image img, .slide-image img a {
+max-height: 200px;
+overflow:hidden;
+}
+/* END IE8 fix*/
+
+.hr { height: 1px; }
+
+p { margin: 0 6em 0.92em 0; }
+.post-entry-2495 .av_textblock_section .avia_textblock p {margin-right:1em;}
+
+.template-page .entry-content-wrapper h1 {
+    letter-spacing: 0px;
+    text-transform: none;
+	 font-weight:normal;
+}
+
+
+ .template-page .entry-content-wrapper h2 {
+    letter-spacing: 0px;
+    text-transform: none;
+}
+
+.avia_textblock h1 {color:#295629; font-weight:normal; margin-bottom:5%;}
+.avia_textblock h2 {margin-bottom:6px;}
+ 
+h2 {
+	font-size: 1.1em;
+	line-height: 1.3;
+}
+
+h3 {
+	font-size: .96em;
+	line-height: 1;
+}
+
+h4 {
+	font-size: .92em;
+	line-height: .95;
+}
+
+h5 {
+	font-size: .92em;
+	line-height: .95;
+	color: #9cb086;
+}
+
+h6 {
+	font-size: .92em;
+	line-height: .95;
+	color: #555;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin-top: 0px;
+	margin-bottom: 3px;
+}
+
+h1.post-title {
+	margin-bottom: 6px;
+	font-size: 1.3em !important;
+}
+header.entry-content-header h1.post-title.entry-title {font-size: 1.9em !important; color:#555;}
+
+ul {
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+}
+
+.entry-content li {
+	margin: 0 0 0 1.05em;
+	list-style-position: outside;
+}
+
+.entry-content ul { margin: 0 0 1em 0; }
+
+/*hides the category on homepage post thumbnails */
+span.blog-categories.minor-meta {display:none;}
+
+/*header with social icons: */
+.social_header #header_main .container,
+.social_header .main_menu ul:first-child > li a {
+	height: 96px;
+	line-height: 96px;
+}
+
+.fixed_header.social_header #main { padding-top: 0px; }/* padding of the main container when a fixed header with social elements is selected*/
+
+/*-------*/
+
+span.avia-menu-text {display:block;}
+
+/*---fix 2.9.1 top menu not showing----*/
+ul#avia2-menu.menu {margin-top:15px;}
+ul#avia2-menu.menu li {border-width:0;}
+
+.sub_menu>ul>li>a, .sub_menu>div>ul>li>a {padding:10px 6px;}
+
+
+/*---fix 2.9.1 phone number top menu----*/
+.av_phone_active_right.av_secondary_right .phone-info.with_nav span {border-width:0;}
+.phone-info span {margin-left:6em; margin-top:2px; letter-spacing:1px; font-size:11.5px;}
+
+
+
+.title_container { box-shadow: none !important; }
+
+.container_wrap { margin-top: -5px; }
+
+#layer_slider_1 { padding-top: 0px; }
+
+#top .ls-bottom-slidebuttons { display: none; }
+
+#av_section_1.avia-section.main_color.avia-section-default.avia-shadow {
+	box-shadow: none;
+	top: 0px;
+	padding-bottom: 10px;
+}
+
+#av_section_1.avia-section { margin-top: -30px; }
+
+/* space above the section right below slider on front page */
+
+
+
+.ls-wp-fullwidth-helper { margin-top: 0px; }
+
+div .av_one_fourth { width: 20.2%; }
+
+/* front page copy blocks */
+
+#av_section_1.avia-section .container .avia_textblock p {
+	font-size: 1.06em;
+	line-height: 1.65;
+	margin: 0 0em 0.92em 0;
+}
+
+#av_section_1.avia-section .container .avia_textblock a {
+	font-size: .99em;
+	font-weight: bold;
+}
+
+.avia_textblock a {
+	font-weight: bold;
+}
+
+div.entry-content a { font-weight: bold !important; }
+
+/* inside page copy and blog post page */
+
+div.entry-content>div.avia_textblock p,
+body#top.single div.entry-content p { margin-right: 8em; }
+
+
+/* Share icons at bottom of post page*/
+#top .av-share-box ul {width:250px;}
+
+
+/* front page blog posts */
+
+.avia-content-slider .slide-entry-title {
+	font-size: .97em;
+	line-height: 1.2;
+	margin-bottom: 2%;
+}
+
+.slide-entry-excerpt {
+	font-size: .98em;
+	line-height: 1.6;
+}
+
+/* Fixes Text Position in Socket on Calendar Pages*/
+
+.events-archive #socket { padding-top: 21px; }
+
+#socket {
+	font-size: 11px;
+	margin-top: 0px;
+}
+
+#scroll-top-link {
+	height: 30px;
+	width: 30px;
+	line-height: 30px;
+	right: 40px;
+	bottom: 55px;
+}
+
+.ajax_form .button,
+.avia-button.avia-size-small {
+	margin: 3px 0;
+	padding: 5px 5px;
+	border-radius: 2px;
+	font-size: 12px;
+	color: #fff !important;
+	text-decoration: none;
+	text-shadow: 0 0 0 rgba(255, 255, 255, 0);
+	background-color: #4f9145;
+	border: none;
+	min-width: 1px;
+	background-image: none;
+}
+
+.avia-button.avia-size-small:hover { background-color: #65b3c7 !important; }
+.avia-button.avia-size-medium:hover { background-color: #65b3c7 !important; }
+
+
+
+input[type="submit"],
+#submit,
+.button {
+	border: none;
+	border-radius: 2px;
+	cursor: pointer;
+	padding: 5px 5px;
+	margin: 3px 0;
+	font-size: .91em;
+}
+
+#top .title_container .container {
+	padding: 0px 0;
+	min-height: 46px;
+}
+
+.template-page .entry-content h1 {
+	font-size: 2.45em;
+	color: #9cb086;
+	margin-top: 0em;
+	margin-bottom: 5%;
+	font-weight: normal;
+}
+
+#top .alternate_color.title_container .main-title,
+#top .alternate_color.title_container .main-title a { display: none; }
+
+.breadcrumb,
+.breadcrumb a { color: #888 !important; }
+
+.title_container .breadcrumb {
+	font-size: .75em;
+	line-height: 1.2;
+	margin-top: 0px;
+	top: 18px;
+}
+
+.container_wrap { border-top-style: none; }
+
+.template-page .entry-content h1,
+.template-page .entry-content h2 {
+	letter-spacing: 0px;
+	text-transform: none;
+}
+
+/*------Sub-Menu style updates-----*/
+.av-main-nav ul {
+ 	left: 15%;
+  	font-size: 12px;
+  	width: 160px;
+}
+
+#top .sub-menu {
+	border-top-color: #e1e1e1;
+}
+
+.sub-menu ul > li {
+	padding: 2px 0;
+}
+
+.sub-menu ul:last-child>li {
+	padding: 0;
+}
+
+#top .main_menu .sub-menu li a {
+     	padding: 15px;
+   		line-height: 18px;
+		width: 100%;
+}
+
+#top .main_menu .sub-menu li a {
+	border: none;
+}
+
+
+
+/*------remov Page-thumb from main pages-----*/
+.template-page .page-thumb{
+	display: none;
+}
+
+/*------Sidebar Random Content Image-----*/
+
+
+
+div .wp-caption { border: none; }
+
+#top .wp-caption img {
+	border: medium none;
+	display: block;
+	margin: 0px 0 0 0;
+	padding: 0 0px 0px 0;
+	width: 95%;
+	border-radius: 6px;
+}
+
+.wp-caption-text {
+	font-family: "Open Sans", Helvetica, sans-serif !important;
+	font-size: .94em;
+	line-height: 1.5em;
+	font-style: normal;
+	text-transform: uppercase;
+	letter-spacing: .03em;
+	text-align: left;
+	padding: 5px 3px 5px 0;
+}
+
+/*-----Sidebar Quotes-----*/
+span.quotemark {font-family:georgia, times; font-size:35px; color:#b7c3aa; font-weight:bold; vertical-align:bottom; line-height:8px; letter-spacing:3px;}
+.quote {font-size:.82em; color:#777; line-height:21px; text-indent:-.5em; margin-left:.5em; text-align:left; margin-right:25px;}
+.smaller {font-size:.65em; margin-left:.5em; margin-top:-5px; line-height:1.5;}
+
+.widget {
+    padding: 25px 0px;
+}
+
+div .widget_nav_menu {padding-bottom:18px; margin-bottom:18px;}
+
+/*-----Sidebar Menu-----*/
+
+
+.sidebar_left.sidebar {
+	text-align: left;
+	line-height: 1.2;
+	border-right: 1px solid #e1e1e1 !important;
+}
+
+
+.sidebar_left .inner_sidebar { margin-right: 0px; }
+
+.sidebar_left.sidebar a {
+	color: #555 !important;
+	font-size: 1.2em;
+}
+
+.sidebar_left.sidebar ul > .current-menu-item > a,
+.sidebar_left.sidebar ul > .current_page_item > a, li.current-cat {
+	color: #333 !important;
+	font-weight: bold;
+}
+
+.sidebar_left.sidebar a:hover { /* hover for top-level left nav*/ color: #9cb086 !important; }
+
+.widget_nav_menu {
+	margin-bottom: 60px;  /* adds space below entire left-nav to bottom of page*/
+	display: block;
+	padding: 0;
+}
+
+.widget_nav_menu a:first-child { padding: 6px 0 0; }
+
+.sidebar_left .widget_nav_menu ul:first-child > .current-menu-item,
+.sidebar_left .widget_nav_menu ul:first-child > .current_page_item,
+.sidebar_left .widget_nav_menu ul:first-child > .current-menu-ancestor {
+	top: 0;
+	background-color: #fff !important;
+	box-shadow: none;
+	padding: 0;
+}
+
+#top .widget_nav_menu ul ul li a { padding: 5px 0 0; }
+
+#top .widget_nav_menu ul ul li:before { content: ""; }
+
+#top .widget_nav_menu ul ul li a:hover {  /* hover for sub-level left nav*/ color: #9cb086 !important; }
+
+.widget_nav_menu ul:first-child > .current-menu-item > a { padding-bottom: 0px; }
+
+.widget_nav_menu ul:first-child > .current-menu-item > a:hover { color: #9cb086 !important; }
+
+#top .widget_nav_menu ul ul li:last-child a {  /* adds space below the left-nav sub-menu bottom */ padding-bottom: 16px; }
+
+#top .sidebar_left .widget_nav_menu .current-menu-item > ul,
+#top .sidebar_left .widget_nav_menu .current_page_item > ul,
+#top .sidebar_left .widget_nav_menu .current_page_ancestor > ul,
+#top .sidebar_left .widget_nav_menu .current-menu-ancestor > ul { padding: 0 13px 0 12px; }
+
+/*----------*/
+/* Sidebar on News Page*/
+
+
+li.cat-item a,
+div#archives-2.widget li a { line-height: 1.6; }
+
+/*----------*/
+
+
+/* Sidebar on Parent Portal Section */
+
+div#text-14.widget.widget_text {
+	background-color: #ecefe8;
+	padding: 10px;
+	margin: 0 16px 45px 0;
+	line-height:21px;
+	border-radius:5px 0 0 5px;
+	}
+	
+div#text-14.widget.widget_text hr {
+	margin:6px 0;
+	}
+
+div#text-14.widget.widget_text h4.title {
+	margin:0 -10px;
+	padding:0 0 8px 10px;
+	background-color: #ecefe8;
+	border-radius:5px 0 0 0;
+	}
+
+div#text-14.widget.widget_text p {
+	margin:0 0 10px 0;
+	line-height:21px;
+	}
+	
+/* fixes sidebar image position on EC and parent tot pages where title was showing and pushing down image */
+nav.widget.widget_nav_menu.widget_nav_hide_child {display:none;}
+div#endo_wrc_widget-28.widget.widget_endo_wrc_widget {padding-top:0!important; margin-top:-20px!important;}
+		
+/*----------*/
+
+
+
+.widget_nav_menu  h4.title, h3.widgettitle,
+h3.widgettitle {
+	font-size: .96em;
+	line-height: 1.3;
+	margin: 0 0 8px 0;
+	}
+
+.textwidget p,
+.textwidget { font-size: .85em; }
+
+.widget_text { font-size: 1em; }
+
+.widget_text p {
+	font-size: 1.08em;
+	line-height: 1.7;
+	color: #666 !important
+}
+
+.widget_text h4.title, h4.title {
+	font-size: 1em;
+	line-height: 1.3;
+	margin: -28px 0 8px 0;
+	color: #565656 !important;
+	font-weight: 600;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+#archives-2 {line-height:1.5;}
+
+/* Used for headings on front page under slider*/
+/* LARGER DESKTOP SIZE */
+
+.av-special-heading h1 {
+	line-height: 1.3;
+}
+
+.av-special-heading h4 {
+	font-size: 1.13em;
+	line-height: 1.25;
+	color: 343434 !important;
+}
+
+.content,
+.sidebar {
+	-moz-box-sizing: content-box;
+	min-height: 1px;
+	padding-bottom: 0px;
+	padding-top: 0;
+	margin-top: 4px;
+	z-index: 1;
+}
+
+#top #main .sidebar_left .sidebar {
+	border-left: medium none;
+	border-right-width: 0;
+}
+
+.widget_sp_image-description p {
+	color: #444;
+	font-size: 0.65em;
+	margin: 203px 0 0;
+	text-transform: uppercase;
+	letter-spacing: .04em;
+}
+
+.sub_menu {
+	font-size: 9.7px;
+	text-transform: uppercase;
+	letter-spacing: .07em;
+	line-height: 30px;
+	margin-top: -4px;
+	top: 50%;
+}
+
+#top .sub_menu > ul { padding-right: 0px; }
+
+.sub_menu li { padding: 0 14px; }
+
+#top .sub_menu li a { text-decoration: none; }
+
+#top .sub_menu li a:hover { text-decoration: none; }
+
+ul#menu-main-menu.menu {
+	margin-top: 4px; /*controls position of main menu background color*/
+	height: 0px !important;  /*controls height of main menu background color*/
+}
+
+#top .main_menu li a {
+	width: auto;
+	text-decoration: none;
+	color: #777;
+	font-size: 1.25em;
+	padding: 0 28px;
+	font-weight: normal;
+}
+
+#top .main_menu li a:hover {
+	text-decoration: none;
+	color: #333;
+}
+
+.avia-menu-fx {
+	bottom: 3px;
+	height: 4px;
+	left: 15%;
+	width: 70%;
+}
+
+.slide-meta { display: none; }
+
+.special-heading-inner-border { border: 0px; }
+
+.ajax_form p { margin: 0 0 0px 0; }
+
+#top .ajax_form .text_input,
+#top .ajax_form .select,
+#top .ajax_form .text_area {
+	padding: 4px 4px 0 4px;
+	font-size: .82em;
+}
+
+#top label {
+	margin: -3px 0;
+	font-size: .82em;
+}
+
+#top .ajax_form .text_area {
+	height: 25px;
+	font-size: .82em;
+	margin-bottom: 2px;
+}
+
+#top .ajax_form .text_input { font-size: .82em; }
+
+#footer {
+	top: 0px;
+	padding: 10px 0 20px;
+	margin-top: 40px;
+}
+
+
+/* Fix image widget in footer to put more than one logo on a line*/
+#footer .widget { margin: 0; clear:none; float:left;}
+
+/* WECAN logo move up */
+section#widget_sp_image-14.widget.clearfix.widget_sp_image {margin-top:-4px;}
+
+/* Green School logo move up */
+section#widget_sp_image-15.widget.clearfix.widget_sp_image {margin-top:-10px;}
+
+
+
+#footer .widgettitle {
+	color: #7F817D;
+	font-size: .89em;
+}
+
+#footer a,
+#footer a:hover { font-weight: bold !important; }
+
+#top textarea { /*Enfold Contact Form*/ min-height: 6em; }
+
+.content .avia_google_maps_container { /*Map Widget*/ height: 430px; }
+
+/* Prev Next Post/ Prev Next Calendar Event Rollover Arrows*/
+
+
+#top .avia-post-nav {
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.1);
+	color: #FFFFFF;
+	line-height: 1.4;
+	height: 90px;
+	margin-top: -55px;
+	padding: 6px 15px;
+	position: fixed;
+	text-decoration: none;
+	top: 50%;
+	z-index: 200;
+}
+
+/*--------------------------------------
+ CONTACT FORM 7 -- CUSTOMIZED CSS
+ -------------------------------------*/
+/*Contact Form 7 Plug In Styling*/	
+
+
+#top .input-text,
+#top input[type="text"],
+#top input[type="input"],
+#top input[type="password"],
+#top input[type="email"],
+#top input[type="number"],
+#top input[type="url"],
+#top input[type="tel"],
+#top input[type="search"],
+#top textarea,
+#top select {
+	font-size: 0.9em;
+	margin: 0;
+	max-width: 100%;
+	padding: 5px 6px;
+	width: 100% !important;
+	border: none;
+}
+
+#wpcf7-f3989-p2480-o1.wpcf7 label {
+	font-size: 1.2em; margin-top:-20px;}
+
+
+#wpcf7-f3989-p2480-o1.wpcf7 { font-size: .95em; }
+
+input.cf7-field,
+wpcf7-form-control-wrap {
+	background-color: #e9ede6 !important;
+	color: #777 !important;
+	border-radius: 4px !important;
+	font-size: .95em !important;
+	height: 22px;
+	padding: 1px 4px !important;
+	margin: 12px 0 !important;
+}
+
+textarea.wpcf7-form-control { height: 8em; }
+.wpcf7-list-item { display: block; }
+.wpcf7-list-item.first {margin-left:6px;}
+
+.cf7-captcha {
+	background-color: #e9ede6 !important;
+	color: #777 !important;
+	border-radius: 4px !important;
+	font-size: .75em !important;
+	height: 22px;
+	padding: 0 0px !important;
+	margin-top: 3px !important;
+}
+
+.cf7-captcha img {
+	border-radius: 4px !important;
+	font-size: .75em !important;
+	height: 22px;
+	padding: 0 0px !important;
+}
+
+div.wpcf7-mail-sent-ok,
+div.wpcf7-response-output,
+div.wpcf7-form,
+.invalid,
+.wpcf7-not-valid-tip {
+	margin: 0 0 0 0;
+	padding: 3px 4px !important;
+	line-height: 1.6;/*removed none to test error color border*/
+}
+
+.cf7-button {
+	top: -10px !important;
+	margin: -4px 0 0 6px !important;
+	padding: 5px 5px !important;
+	border-radius: 2px !important;
+	font-size: 13px !important;
+	color: #fff !important;
+	text-decoration: none;
+	text-shadow: 0 0 0 rgba(255, 255, 255, 0);
+	background-color: #9cB086 !important;
+	border: none;
+	min-width: 1px;
+	font-weight: bold !important;
+}
+
+.cf7-button:hover { background-color: #65b3c7 !important; }
+
+/* Admission Form */
+/*Radio Button Area*/
+
+
+
+
+/*End Contact Form 7 Plug In Styling*/
+
+
+
+
+/*--------------------------------------
+ IMAGE WIDGET -- CUSTOMIZED CSS 
+ -------------------------------------*/
+ 
+/*Image Widget for External Logos in Footer*/
+
+
+
+div#widget_sp_image-2,
+div#widget_sp_image-4,
+div#widget_sp_image-5,
+div#widget_sp_image-6,
+div#widget_sp_image-7,
+div#widget_sp_image-10,
+div#widget_sp_image-11 {
+	clear: none;
+	float: left;
+	width: 24%;
+	margin:0;
+	padding:0;
+}
+div#widget_sp_image-2 {top:6px;}
+div#widget_sp_image-6 {top:-6px; right:-14px;}
+
+
+/*--------------------------------------
+ WYSIJA NEWSLETTER -- CUSTOMIZED CSS 
+ -------------------------------------*/
+
+/* Wysija Newsletter Subscription Form*/
+
+
+
+#top .input-text,
+#top input[type="text"],
+#top input[type="input"],
+#top input[type="password"],
+#top input[type="email"],
+#top input[type="number"],
+#top input[type="url"],
+#top input[type="tel"],
+#top input[type="search"],
+#top textarea,
+#top select {
+	font-size: .9em;
+	margin: 0 0 0px;
+	max-width: 100%;
+	padding: 5px 6px;
+	width: 270px;
+}
+
+.input-text,
+input[type="text"],
+input[type="input"],
+input[type="password"],
+input[type="email"],
+input[type="number"],
+input[type="url"],
+input[type="tel"],
+input[type="search"],
+textarea,
+select { color: #333 !important; }
+
+::-webkit-input-placeholder {
+color: #666;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+color: 333;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+color: 333;
+}
+
+:-ms-input-placeholder {
+color: 333;
+}
+
+p.wysija-paragraph input.wysija-input { color: #777 !important; }
+
+form#form-wysija-2.widget_wysija { margin-top:0px; }
+p.wysija-paragraph {margin-right:1.2em;}
+
+/*Wysija Error Messages*/
+
+
+
+.widget_wysija_cont .error,
+.widget_wysija_cont .xdetailed-errors {
+	background-color: #fff;
+	border-color: #fff;
+	color: #65b3c7;
+	margin: 8px 0;
+}
+
+.widget_wysija_cont .updated,
+.widget_wysija_cont .login .message {
+	background-color: #fff;
+	border-color: #fff;
+}
+
+
+/*  ------------------Removed all Tribe Desktop styles from here, except the following -------------------- */
+#top label {margin: 0 0 4px 0;}
+
+
+/* Tribe Theme Color */
+
+h2.tribe-events-page-title {
+	color:#9cb086; font-weight:normal; font-size:27px;}
+
+
+#tribe-events-content .tribe-events-tooltip h4,
+#tribe_events_filters_wrapper .tribe_events_slider_val,
+.single-tribe_events a.tribe-events-ical, 
+.single-tribe_events a.tribe-events-gcal {
+	color: #9cb086; font-weight:normal;
+}
+.tribe-events-notices {
+	background: #fafafa; color:#666; border: 1px solid #eee;}
+
+.tribe-events-calendar td.tribe-events-present div[id*="tribe-events-daynum-"], 
+.tribe-events-calendar td.tribe-events-present div[id*="tribe-events-daynum-"] > a,
+#tribe_events_filters_wrapper input[type=submit],
+.tribe-events-button,
+#tribe-events .tribe-events-button,
+.tribe-events-button.tribe-inactive,
+#tribe-events .tribe-events-button:hover,
+.tribe-events-button:hover,
+.tribe-events-button.tribe-active:hover {
+	background-color: #9cb086;
+}
+
+#tribe_events_filters_wrapper h3 span:after { 	
+	border-top-color: #9cb086;
+}
+
+#tribe_events_filters_wrapper .tribe_events_filter_item.closed h3 span:after {
+	border-left-color: #9cb086;
+}
+
+.single-tribe_events a.tribe-events-ical, 
+.single-tribe_events a.tribe-events-gcal {
+	color: #9cb086;
+}
+
+.single-tribe_events a.tribe-events-ical:hover, 
+.single-tribe_events a.tribe-events-gcal:hover,
+#tribe-events .tribe-events-button:hover, 
+.tribe-events-button:hover {
+	background-color: #65b3c7;
+}
+
+#tribe-bar-form .tribe-bar-submit input[type=submit] {
+	 width:84%; border-radius:3px; letter-spacing:1px; background-color:#9cb086;}
+	
+#tribe-bar-form .tribe-bar-submit input[type=submit]:hover {
+	background-color:#65b3c7;}
+
+
+.tribe-events-grid .type-tribe_events a {
+	color: #9cb086;	
+}
+
+.tribe-events-grid .tribe-grid-header .tribe-week-today {
+ 	background-color: #21759b;
+}
+
+.tribe-grid-allday .tribe-events-week-allday-single,
+.tribe-grid-body .tribe-events-week-hourly-single {
+	background-color: #9cb086;
+	background-color: rgba(156, 176, 134, .75);
+	border-color: #9cb086;
+}
+
+.tribe-grid-allday .tribe-events-week-allday-single:hover,
+.tribe-grid-body .tribe-events-week-hourly-single:hover {
+	background-color: #65b3c7;
+	background-color: rgba(144, 121, 169, .75);
+	border-color: #65b3c7;
+}
+
+/* Calendar Links */
+ 
+.tribe-events-adv-list-widget .tribe-events-widget-link a, 
+.tribe-events-back a, 
+.tribe-events-event-meta a, 
+.tribe-events-list-widget .tribe-events-widget-link a, 
+ul.tribe-events-sub-nav a {
+	color: #9cb086;}
+
+.tribe-events-adv-list-widget .tribe-events-widget-link a:hover, 
+.tribe-events-back a:hover, 
+.tribe-events-list-widget .tribe-events-widget-link a:hover, 
+ul.tribe-events-sub-nav a:hover,
+.tribe-events-event-meta a:hover
+ {
+	color: #65b3c7;}
+	
+.tribe-events-after-html a {
+	color:#9cb086;}
+	
+.tribe-events-after-html a:hover {
+	color:#65b3c7;}
+	
+.tribe-events-calendar td.tribe-events-past .tribe-events-month-event-title a, 
+.tribe-events-calendar td.tribe-events-past .tribe-events-viewmore a{
+	color:#9cb086;}
+	
+#tribe-events-content .tribe-events-calendar td {
+	color:#444; }
+	
+#top h1 a, #top h2 a, #top h3 a, #top h4 a, #top h5 a, #top h6 a {
+		font-weight:normal;}
+
+
+/* Single Event View */
+.single-tribe_events h2.tribe-events-single-event-title {
+	color:#9cb086; font-weight:normal; margin-top:40px; font-size:30px;}
+	
+div.tribe-events-schedule h3 {font-weight:400;}
+
+.tribe-events-single-event-description {
+	margin-top: 40px; margin-bottom: 20px;}
+	
+.tribe-events-meta-group .tribe-events-single-section-title {
+	font-weight:300; margin-bottom:12px; margin-top:30px;}
+	
+.single-tribe_events .tribe-events-event-meta {
+	margin-top: 60px; font-size:90%;}
+
+
+
+/* Calendar Widget */
+
+.tribe-mini-calendar td.tribe-events-has-events.tribe-events-present,
+.tribe-mini-calendar td.tribe-events-has-events.tribe-mini-calendar-today {
+	background-color: #9cb086;
+}
+.tribe-bar-geoloc-filter {
+display: none;
+}
+
+/* List View */
+span.tribe-events-list-separator-month { color: #9cb086; font-weight:normal;}
+div#tribe-events-content.tribe-events-list a {
+	color: #9cb086;
+	font-weight:bold;
+}
+
+div#tribe-events-content.tribe-events-list a.tribe-events-ical:hover { background-color: #9079a0;}
+div#tribe-events-content.tribe-events-list a.tribe-events-ical, div#tribe-events-content.tribe-events-list a.tribe-events-ical:hover { color: #fff;}
+
+h2.tribe-events-list-event-title a {
+	color: #9cb086;
+	font-size: .92em;
+	font-weight:normal!important;
+}
+
+h2.tribe-events-list-event-title a:hover {
+	color: #9079a0!important;
+}
+
+.tribe-events-event-meta {
+	margin-top:16px !important;
+}
+
+div.updated.published.time-details {color:#444;}
+
+
+/* Week View */
+
+.tribe-events-grid .tribe-grid-header .tribe-week-today {
+	background-color: #9cb086;}
+	
+.tribe-grid-allday .tribe-events-week-allday-single, 
+.tribe-grid-body .tribe-events-week-hourly-single {
+	background-color: rgba(156, 176, 134, .40); border:1px solid rgba(156, 176, 134, .60);}
+	
+/* Day View*/
+
+.tribe-events-day .tribe-events-day-time-slot h5 {
+	font-weight:normal;
+	background: #eee;
+	color: #888;
+}
+
+.tribe-events-loop .tribe-events-event-meta {font-weight:400;}
+
+/* end Tribe Styles*/
+
+
+
+/* Input Field for Portal Log In Pages*/
+
+#top label #pwbox-2733, #top label #pwbox-4959, #top label #pwbox-5064 { width:50% !important; margin-bottom: 6px !important; }
+
+/* Form Title*/
+
+
+h2.form-title { padding-bottom: 18px; }
+
+sup {
+	font-size: 70%;
+	vertical-align: 22%;
+	padding: 0px 0 0 2px;
+}
+
+.togglecontainer > section:last-child .single_toggle {
+  margin-bottom: 30px !important;
+}
+
+.togglecontainer {
+	margin-top: 1.1em;
+	margin-right: 8em;
+	padding-bottom: 6.2em;
+}
+
+.togglecontainer.avia-builder-el-3 {
+	margin-top: 3em;
+	margin-right: 0;
+	padding-bottom: 6.2em;
+}
+
+.js_active .toggle_wrap { margin-bottom: 2em; }
+
+.invers-color p { margin-right: .1em; }
+
+.invers-color p {
+	margin-top: 1em;
+	margin-bottom: 0;
+}
+
+.invers-color ul {
+	margin-top: 0em;
+	margin-bottom: 0;
+}
+
+.invers-color li {
+	margin-top: 0em;
+	margin-bottom: 4px;
+}
+
+.invers-color a,
+.toggle_content .invers-color a:hover { font-weight: bold !important; }
+
+.main_color h2,
+.main_color h3,
+.main_color h4,
+.main_color h5,
+.main_color h6 { color: #333 !important; }
+
+.toggle_content strong { color: #444 !important; }
+
+/* Mice Type*/
+
+
+p.mice {
+	font-size: .76em !important;
+	line-height: 1.6;
+	margin-top: 2.2em;
+}
+
+/* Tour blurb on Front Page */
+
+p.small {
+	font-size: 1.06em !important;
+	line-height: 1.65;
+	padding-right: 4em;
+}
+
+/* Table Styles for Curriculum Charts*/
+ 
+table.avia-table {border:1px solid #e1e1e1;}
+table.avia-table td {
+	font-size: .91em;
+	line-height: 1.46;
+	margin: 0;
+	color: #444;
+	padding: 7px 6px 8px 12px;
+}
+tr.avia-heading-row {line-height:1.2;}
+table.avia-table p { margin: 0 0 6px 0; }
+th.avia-desc-col {font-size:90%; letter-spacing:.08em; line-height:1.25;}
+table.avia-table li {
+	list-style: none;
+	margin: 0;
+	line-height: 1.35;
+}
+
+/* Image Sprite Pay Fee Button */
+.ppsprite {
+background: url('/learn/wp-content/uploads/2013/08/Pay-Fee-Button.png')no-repeat scroll 0px 0px transparent;
+width:85px;
+height:26px;
+position:absolute;
+padding-left:48px; margin-top:-40px;
+}
+.ppsprite:hover {
+background: url('/learn/wp-content/uploads/2013/08/Pay-Fee-Button.png')no-repeat scroll 0px -26px transparent;
+}
+
+/* Image Sprite Donate Button */
+.ppdonatesprite {
+background: url('/learn/wp-content/uploads/2013/08/Donate-Now-Button.png')no-repeat scroll 0px 0px transparent;
+width:85px;
+height:26px;
+position:absolute;
+padding-left:48px; 
+top:170px;
+}
+.ppdonatesprite:hover {
+background: url('/learn/wp-content/uploads/2013/08/Donate-Now-Button.png')no-repeat scroll 0px -26px transparent;
+}
+.side {
+top:0px; left:0px;
+}
+
+
+/* Wysiga Mail Poet */
+.widget_wysija .wysija-radio-label, .widget_wysija .wysija-checkbox-label  {margin: 0 0 10px 0;}
+
+
+
+h3.slide-entry-title.entry-title a {}
+h3.slide-entry-title.entry-title {
+font-weight: 600;
+
+}
+
+/* #Desktop - Large
+=================================== */
+@media only screen and (min-width: 989px) and (max-width: 1339px) {
+
+/* Tour blurb on Front Page */	
+
+p.small {
+	font-size: .96em !important;
+	line-height: 1.65;
+	padding-right: 2em;
+}
+
+/* front page copy blocks */
+
+#av_section_1.avia-section .container .avia_textblock p {
+	font-size: .96em;
+	line-height: 1.65;
+	margin: 0 0em 0.9em 0;
+}
+
+/* Headings on front page under slider*/
+
+.av-special-heading h4 {
+	font-size: 1.05em;
+	line-height: 1.23;
+}
+
+/* front page blog posts */
+
+.avia-content-slider .slide-entry-title {
+	font-size: .95em;
+	line-height: 1.2;
+	margin-bottom: 1.8%;
+}
+
+.slide-entry-excerpt {
+	font-size: .92em;
+	line-height: 1.7;
+}
+
+/* Footer Reduce Image Size */
+
+div.entry-content>div.avia_textblock p,
+body#top.single div.entry-content p,
+.togglecontainer { margin-right: 5em; }
+
+/* inside page copy */
+
+div.entry-content>div.avia_textblock p,
+body#top.single div.entry-content p,
+.togglecontainer { margin-right: 5em; }
+
+}
+
+
+
+
+
+/* #Tablet (Portrait) Designed for w:768px, Gutter: 30px, Unit: 32px
+=================================== */
+@media only screen and (min-width: 768px) and (max-width: 1139px) {
+
+/* Tour blurb on Front Page */	
+
+p.small {
+	font-size: .92em !important;
+	line-height: 1.58;
+	padding-right: 0em;
+}
+
+p { margin: 0 3em 0.92em 0; }
+
+/* front page copy blocks */
+
+#av_section_1.avia-section .container .avia_textblock p {
+	font-size: .92em;
+	line-height: 1.58;
+	margin: 0 0em 0.7em 0;
+}
+
+#av_section_1.avia-section .container .avia_textblock p strong {
+	font-size: .89em;
+	line-height: 1.45;
+	margin: 0 0 0.7em 0;
+}
+
+
+
+/* Headings on front page under slider*/
+
+.av-special-heading h4 {
+	font-size: .95em;
+	line-height: 1.22;
+}
+
+/* front page blog posts */
+
+.avia-content-slider .slide-entry-title {
+	font-size: .9em;
+	line-height: 1.2;
+	margin-bottom: 1.3%;
+}
+
+.slide-entry-excerpt {
+	font-size: .82em;
+	line-height: 1.48;
+}
+
+/* inside page copy */
+
+div.entry-content>div.avia_textblock p,
+body#top.single div.entry-content p,
+.togglecontainer { margin-right: 2em; }
+
+#footer .widgettitle {
+	color: #7F817D;
+	font-size: .78em;
+	letter-spacing: .04;
+}
+
+.textwidget {
+	font-size: .8em;
+	line-height: 1.3;
+}
+
+.template-page .entry-content h1 { font-size: 2.2em;}
+
+table.avia-table {border:1px solid #e1e1e1;}
+table.avia-table td {
+	font-size: 81%;
+	line-height: 1.2;
+	margin: 0;
+	color: #444;
+	padding: 6px 3px 7px 6px;
+}
+tr.avia-heading-row {font-size:80%; line-height:1.2;}
+table.avia-table p { margin: 0 0 6px 0; }
+th.avia-desc-col {font-size:70%; letter-spacing:.04em; line-height:1.25; padding:3px}
+
+}
+
+/* #Tablet (Portrait) Designed for w:768px, Gutter: 30px, Unit: 32px
+=================================== */
+@media only screen and (min-width: 990px) and (max-width: 1139px) {
+
+/* Front Page copy blocks */	
+div .av_one_fourth { width: 20.2%; }
+
+
+}
+
+ @media only screen and (max-width: 989px) {
+
+#top .main_menu li a {
+	font-size: 1.13em;
+	padding: 0 14px;
+}
+
+h3.widgettitle {font-size:89%;}
+div.textwidget p {margin-right:.4em;}
+div.container strong.logo { margin-left: -25px; }
+
+av-special-heading h4 {font-size:.9em;}
+
+div.av_one_fourth {width:48%;}
+.avia-content-slider .slide-image {width:100%;}
+#footer div .av_one_fourth {margin-left: 0; margin-right:20px; width:21%;}
+
+/* Fix for IE8 image display on News (blog) page and Home page. Relates to css on line 19 above */
+/*.avia-content-slider .slide-image { width: 90%; }
+.avia-content-slider .slide-image img { width: 100%; }
+
+.blog .avia-content-slider .slide-image { width: 90%; max-width:300px; }
+.blog .avia-content-slider .slide-image img { width: 100%; max-width:300px; }
+.blog .slide-entry-excerpt {
+	max-width:300px; margin-bottom:.5em;
+}*/
+
+/* END IE8 fix*
+
+
+/* Calendar Adjustments for Mobile -- max-width: 989px */
+#tribe-events-content {margin-left:20px; margin-right:20px;}
+#tribe-events-content.tribe-events-single {margin-left:30px; margin-right:30px;}
+.tribe-events-sub-nav li a {
+    background: #fff;}
+	 
+.tribe-events-after-html {margin-left:15px;}
+
+}
+
+
+/* #Mobile (Landscape)
+================================================== */
+/* Note: Design for a width of 480px */
+@media only screen and (max-width: 767px) {
+
+p { margin: 0 3em 0.92em 0; }
+
+#top #main .sidebar {
+float: left;
+}
+.phone-info {display:none;}
+
+.social_bookmarks { display: none; }
+
+.sub_menu {
+	font-size: .69em;
+	letter-spacing: 0.03em;
+	line-height: 1.1;
+	text-transform: uppercase;
+}
+
+#top .sub_menu > ul { padding: 18px 0 9px 0; }
+.responsive #header .sub_menu, .responsive #header_meta .sub_menu>ul {min-width:320px; text-align:center;}
+
+div.container {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.sub_menu li {
+	border: none;
+	padding: 0 11px;
+}
+
+.sub_menu li:first-child { padding-left: 0;}
+
+.sub_menu li:last-child { padding-right: 0; margin-right:0; }
+
+.responsive .container {
+	width: 100%;
+	height: 36px;
+}
+
+.responsive #top .mobileMenu {
+	padding: 6px;
+	margin: 6px 0 6px;
+}
+
+.responsive .logo { padding-top: 8px; padding-left:1.5em; }
+
+#mobileMenu_menu-main-menu.mobileMenu {font-size:1.2em;}
+
+/* Space under Select a Section */
+
+#top .title_container .container { min-height: 30px !important; }
+
+/* h1, h2 Headline on inside pages*/	
+
+.template-page .entry-content h1 { font-size: 1.8em; }
+
+.template-page .entry-content h2 { font-size: 1em; }
+
+/* Tour blurb on Front Page */	
+
+p.small {
+	font-size: .91em !important;
+	line-height: 1.48;
+	padding-right: 1em;
+}
+
+/* front page copy blocks */
+
+#av_section_1.avia-section .container .avia_textblock p {
+	font-size: .91em;
+	line-height: 1.48;
+	margin: 0 0em 0.5em 0;
+}
+
+#av_section_1.avia-section .container .avia_textblock p strong {
+	font-size: .91em;
+	line-height: 1.45;
+	margin: 0 0 0.5em 0;
+}
+
+/* Headings on front page under slider*/
+
+.av-special-heading h4 {
+	font-size: .96em;
+	line-height: 1.2;
+}
+
+/* front page blog posts */
+
+.avia-content-slider .slide-entry-title {
+	font-size: .89em;
+	line-height: 1.2;
+	margin-bottom: 1.3%;
+	margin-right: .6em;
+}
+
+.slide-entry-excerpt {
+	font-size: .82em;
+	line-height: 1.48;
+	margin-right: .6em;
+}
+
+
+/* space on sides of page and photo width */
+
+.responsive .container {
+	padding-left: 1.5em;
+	padding-right: 1.5em;
+}
+
+/* Fix for IE8 image display on News (blog) page and Home page. Relates to css on line 19 above */
+.avia-content-slider .slide-image { width: 100%; }
+.avia-content-slider .slide-image img { width: 100%; }
+
+.blog .avia-content-slider .slide-image { width: 100%; max-width:300px; }
+.blog .avia-content-slider .slide-image img { width: 100%; max-width:300px; }
+.blog .slide-entry-excerpt {
+	max-width:300px; margin-bottom:.5em;
+}*/
+/* END IE8 fix*/
+
+
+
+/* inside page copy */
+div.post-entry p,
+div.entry-content p, 
+div.avia_textblock p,
+.togglecontainer {
+	margin-right: 0 !important;
+	font-size: 97%;
+	line-height: 1.5;
+}
+
+/* Accordion Adjustment for mobile */
+.togglecontainer {
+	margin-right: 0em;
+}
+
+
+/* Footer & Socket Adjustments*/
+
+#footer {
+	height: 280px;
+	padding-top: 10px;
+	top: 20px;
+}
+
+#footer h3.widgettitle {
+	margin-bottom: 0;
+	font-size: 75%;
+}
+
+#widget_sp_image-2 {
+float: left !important;
+}
+
+
+.container .twelve.units,
+.responsive #top .flex_column { margin: 0 0 3px; }
+
+#footer img { display: none; }
+
+span.copyright {
+	padding: 0 0 6px 1.5em;
+	font-size: 80%;
+	line-height: 1.5;
+}
+
+#socket span { margin-top: 0; }
+
+/* End Footer & Socket Adjustments*/
+
+
+.breadcrumb { display: none !important; }
+
+
+
+/* displays the sidebar menu on mobile device without image and right border */
+.sidebar_left.sidebar {border:medium none !important;}
+
+.responsive #top #main .sidebar {
+	display: block !important;
+	width: 100% !important;
+	z-index:900;}
+
+.responsive #top #main .sidebar img { display: none !important; }
+
+.responsive #top #main .sidebar .widget {
+	margin-bottom: 0px;
+	margin-top: -4px;
+	line-height: 1.3;
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+
+/* Spacing and positioning of sidebar menu items */
+
+#top .widget_nav_menu ul ul li:last-child a, #top .widget_categories ul ul li:last-child a { padding-bottom: 6px; }
+
+#top .widget_nav_menu li a, #top .widget_nav_menu ul ul li a, 
+#top .widget_categories li a, #top .widget_categories li, 
+#top .widget_categories ul ul li a, #top .widget_categories ul ul li { 	
+background-color: #9cB086; 
+padding:2px 0 4px 9px;
+font-size:.93em; 
+color:#fff !important;
+width:100%;
+margin-bottom:6px;
+}
+
+#top .widget_nav_menu li a:hover, #top .widget_nav_menu ul ul li a:hover, #top .widget_categories a:hover
+{color:#fff !important; background-color:#65b3c7 !important;}
+
+.sidebar_left.sidebar ul > .current_page_item > a, li.current-cat, li.current-cat a {background-color:#65b3c7 !important;}
+
+#top .widget_nav_menu ul ul li a, 
+#top .widget_categories ul li a {padding-bottom:6px; padding-left:42px; margin-right:-1.5em; margin-left:-1.5em;}
+
+#top .widget_nav_menu ul ul li {margin-right:-2.3em;}
+#archives-2.widget li {display:inline; padding-right:20px; line-height:1.8;}
+
+.wp-caption { display: none !important; }
+
+.responsive #top #main .sidebar .widgettitle { display: none; }
+/* end displays the sidebar menu on mobile */
+
+.widget_wysija {padding-top:20px;}
+
+/* Calendar Adjustments for Mobile -- max-width: 767px */
+#tribe-events-content {margin-left:20px; margin-right:20px;}
+#tribe-events-content.tribe-events-single {margin-left:30px; margin-right:30px;}
+.tribe-events-sub-nav li a {
+    background: #fff;}
+	
+/* Calendar List View Heads -- max-width: 767px */
+h2.tribe-events-list-event-title a	{line-height:1;} 
+
+/* Calendar Week View Heads -- max-width: 767px */
+ h5.tribe-mobile-day-date {
+	font-weight:normal;
+	background: #eee;
+	color: #888;
+}
+
+h4.summary, h4.summary a {
+	color:#9cb086;}
+
+
+/* Calendar Mobile Color Change from Modern Tribe Theme Colors -- max-width: 767px */
+.tribe-events-calendar td.mobile-active,
+.tribe-events-calendar .mobile-active div[id*="tribe-events-daynum-"],
+.tribe-events-calendar .mobile-active div[id*="tribe-events-daynum-"] a,
+#tribe-events-content .tribe-events-calendar .mobile-active:hover,
+#tribe-events-content .tribe-events-calendar td.tribe-events-othermonth.mobile-active,
+#tribe-events-content .tribe-events-calendar td.tribe-events-othermonth.mobile-active div[id*="tribe-events-daynum-"],
+#tribe-events-content .tribe-events-calendar td.tribe-events-othermonth.mobile-active div[id*="tribe-events-daynum-"] a {
+	background-color:#9cb086;
+}
+
+.tribe-events-calendar td.tribe-events-present.mobile-active,
+#tribe-events-content .tribe-events-calendar td.tribe-events-present.mobile-active:hover,
+.tribe-events-calendar td.tribe-events-present.mobile-active div[id*="tribe-events-daynum-"],
+.tribe-events-calendar td.tribe-events-present.mobile-active div[id*="tribe-events-daynum-"] a {
+	background-color:#9cb086;
+}
+
+#tribe-bar-form .tribe-bar-submit input[type=submit] {
+	 width:100%;}
+	 
+.tribe-events-event-body a {color:#9cb086;}
+.tribe-events-event-body a:hover {color:#65b3c7;}
+
+h2.tribe-events-page-title {font-size:22px;}
+
+
+/* End Calendar Mobile Changes */
+
+
+	 
+/* Hides the Dontate Button on Side Bar */	 
+.side {
+Display:none;
+}
+
+
+
+/* Adjust Curric Charts for Phone View */
+.avia-table.avia-data-table.avia-table-1.avia-builder-el-1.el_after_av_textblock.avia-builder-el-last td {
+width: 100%;
+}
+
+
+/* Sidebar on Parent Portal Section */
+
+.responsive #top #main .sidebar .widget {
+	width: 100%;
+	margin: 0 0px 50px 0;
+	
+	}
+/* ******************* */
+	 
+}
+
+/* Design for max width of 499 */
+@media only screen and (max-width: 499px) {
+.responsive #header .sub_menu, .responsive #header_meta .sub_menu>ul {text-align:left;}	
+.sub_menu>ul>li>a, .sub_menu>div>ul>li>a {padding:10px 0px 10px 0;}
+.responsive #header_meta .sub_menu > ul > li {padding:0 6px;}
+#header_meta {
+    left: -38px;
+    width: 130%;
+	}
+
+p { margin: 0 0em 0.92em 0; }
+
+}

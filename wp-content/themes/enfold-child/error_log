@@ -1,0 +1,90 @@
+[18-Sep-2017 12:29:08 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home2/threeced/public_html/learn/wp-content/themes/enfold-child/404.php on line 7
+[18-Sep-2017 12:29:08 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home2/threeced/public_html/learn/wp-content/themes/enfold-child/404.php on line 7
+[20-Sep-2017 01:46:05 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home2/threeced/public_html/learn/wp-content/themes/enfold-child/404.php on line 7
+[20-Sep-2017 01:46:05 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home2/threeced/public_html/learn/wp-content/themes/enfold-child/404.php on line 7
+[25-Sep-2017 11:37:22 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home2/threeced/public_html/learn/wp-content/themes/enfold-child/404.php on line 7
+[25-Sep-2017 11:37:23 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home2/threeced/public_html/learn/wp-content/themes/enfold-child/404.php on line 7
+[28-Sep-2017 04:38:28 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home2/threeced/public_html/learn/wp-content/themes/enfold-child/404.php on line 7
+[28-Sep-2017 04:38:28 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home2/threeced/public_html/learn/wp-content/themes/enfold-child/404.php on line 7
+[28-Sep-2017 08:29:22 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home2/threeced/public_html/learn/wp-content/themes/enfold-child/404.php on line 7
+[28-Sep-2017 08:29:22 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home2/threeced/public_html/learn/wp-content/themes/enfold-child/404.php on line 7
+[09-Oct-2017 17:48:22 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home2/threeced/public_html/learn/wp-content/themes/enfold-child/404.php on line 7
+[09-Oct-2017 17:48:22 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home2/threeced/public_html/learn/wp-content/themes/enfold-child/404.php on line 7
+[10-Oct-2017 09:18:51 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home2/threeced/public_html/learn/wp-content/themes/enfold-child/404.php on line 7
+[10-Oct-2017 09:18:52 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home2/threeced/public_html/learn/wp-content/themes/enfold-child/404.php on line 7
+[16-Oct-2017 16:33:47 America/Denver] PHP Fatal error:  Call to undefined function avia_get_option() in /home2/threeced/public_html/learn/wp-content/themes/enfold-child/header.php on line 5
+[16-Oct-2017 16:33:48 America/Denver] PHP Fatal error:  Call to undefined function avia_get_option() in /home2/threeced/public_html/learn/wp-content/themes/enfold-child/header.php on line 5
+[17-Oct-2017 06:56:45 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home2/threeced/public_html/learn/wp-content/themes/enfold-child/404.php on line 7
+[17-Oct-2017 06:56:45 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home2/threeced/public_html/learn/wp-content/themes/enfold-child/404.php on line 7
+[17-Oct-2017 09:46:35 America/Denver] PHP Fatal error:  Call to undefined function avia_get_option() in /home2/threeced/public_html/learn/wp-content/themes/enfold-child/header.php on line 5
+[17-Oct-2017 09:46:35 America/Denver] PHP Fatal error:  Call to undefined function avia_get_option() in /home2/threeced/public_html/learn/wp-content/themes/enfold-child/header.php on line 5
+[19-Oct-2017 22:12:34 America/Denver] PHP Fatal error:  Call to undefined function avia_get_option() in /home2/threeced/public_html/learn/wp-content/themes/enfold-child/header.php on line 5
+[19-Oct-2017 22:12:34 America/Denver] PHP Fatal error:  Call to undefined function avia_get_option() in /home2/threeced/public_html/learn/wp-content/themes/enfold-child/header.php on line 5
+[04-Jan-2018 10:37:27 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home2/threeced/public_html/learn/wp-content/themes/enfold-child/404.php on line 7
+[04-Jan-2018 10:37:28 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home2/threeced/public_html/learn/wp-content/themes/enfold-child/404.php on line 7
+[05-Jan-2018 05:48:39 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home2/threeced/public_html/learn/wp-content/themes/enfold-child/404.php on line 7
+[05-Jan-2018 05:48:39 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home2/threeced/public_html/learn/wp-content/themes/enfold-child/404.php on line 7
+[05-Jan-2018 18:42:03 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home2/threeced/public_html/learn/wp-content/themes/enfold-child/404.php on line 7
+[05-Jan-2018 18:42:03 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home2/threeced/public_html/learn/wp-content/themes/enfold-child/404.php on line 7
+[23-Jan-2018 08:53:10 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home2/threeced/public_html/learn/wp-content/themes/enfold-child/404.php on line 7
+[23-Jan-2018 08:53:10 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home2/threeced/public_html/learn/wp-content/themes/enfold-child/404.php on line 7
+[23-Jan-2018 20:13:13 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home2/threeced/public_html/learn/wp-content/themes/enfold-child/404.php on line 7
+[23-Jan-2018 20:13:13 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home2/threeced/public_html/learn/wp-content/themes/enfold-child/404.php on line 7
+[07-Mar-2018 23:32:53 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home2/threeced/public_html/learn/wp-content/themes/enfold-child/404.php on line 7
+[07-Mar-2018 23:32:53 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home2/threeced/public_html/learn/wp-content/themes/enfold-child/404.php on line 7
+[15-Mar-2018 04:25:57 America/Denver] PHP Fatal error:  Call to undefined function avia_get_option() in /home2/threeced/public_html/learn/wp-content/themes/enfold-child/header.php on line 5
+[15-Mar-2018 04:25:57 America/Denver] PHP Fatal error:  Call to undefined function avia_get_option() in /home2/threeced/public_html/learn/wp-content/themes/enfold-child/header.php on line 5
+[16-Mar-2018 21:28:43 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home2/threeced/public_html/learn/wp-content/themes/enfold-child/404.php on line 7
+[16-Mar-2018 21:28:43 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home2/threeced/public_html/learn/wp-content/themes/enfold-child/404.php on line 7
+[19-Mar-2018 05:35:08 America/Denver] PHP Fatal error:  Call to undefined function avia_get_option() in /home2/threeced/public_html/learn/wp-content/themes/enfold-child/header.php on line 5
+[19-Mar-2018 05:35:09 America/Denver] PHP Fatal error:  Call to undefined function avia_get_option() in /home2/threeced/public_html/learn/wp-content/themes/enfold-child/header.php on line 5
+[19-Mar-2018 10:00:43 America/Denver] PHP Fatal error:  Call to undefined function avia_get_option() in /home2/threeced/public_html/learn/wp-content/themes/enfold-child/header.php on line 5
+[19-Mar-2018 10:00:53 America/Denver] PHP Fatal error:  Call to undefined function avia_get_option() in /home2/threeced/public_html/learn/wp-content/themes/enfold-child/header.php on line 5
+[20-Mar-2018 08:54:27 America/Denver] PHP Fatal error:  Call to undefined function avia_get_option() in /home2/threeced/public_html/learn/wp-content/themes/enfold-child/header.php on line 5
+[20-Mar-2018 08:54:28 America/Denver] PHP Fatal error:  Call to undefined function avia_get_option() in /home2/threeced/public_html/learn/wp-content/themes/enfold-child/header.php on line 5
+[27-Mar-2018 23:16:52 America/Denver] PHP Fatal error:  Call to undefined function avia_get_option() in /home2/threeced/public_html/learn/wp-content/themes/enfold-child/header.php on line 5
+[27-Mar-2018 23:16:52 America/Denver] PHP Fatal error:  Call to undefined function avia_get_option() in /home2/threeced/public_html/learn/wp-content/themes/enfold-child/header.php on line 5
+[28-Mar-2018 21:53:36 America/Denver] PHP Fatal error:  Call to undefined function avia_get_option() in /home2/threeced/public_html/learn/wp-content/themes/enfold-child/header.php on line 5
+[28-Mar-2018 21:53:37 America/Denver] PHP Fatal error:  Call to undefined function avia_get_option() in /home2/threeced/public_html/learn/wp-content/themes/enfold-child/header.php on line 5
+[05-Jul-2018 11:17:55 America/Denver] PHP Fatal error:  Call to undefined function avia_get_option() in /home2/threeced/public_html/learn/wp-content/themes/enfold-child/header.php on line 5
+[05-Jul-2018 11:17:56 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home2/threeced/public_html/learn/wp-content/themes/enfold-child/404.php on line 7
+[05-Jul-2018 11:17:56 America/Denver] PHP Fatal error:  Call to undefined function avia_get_option() in /home2/threeced/public_html/learn/wp-content/themes/enfold-child/header.php on line 5
+[05-Jul-2018 11:17:56 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home2/threeced/public_html/learn/wp-content/themes/enfold-child/404.php on line 7
+[15-Aug-2018 07:49:34 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home2/threeced/public_html/learn/wp-content/themes/enfold-child/404.php on line 7
+[15-Aug-2018 07:49:34 America/Denver] PHP Fatal error:  Call to undefined function avia_get_option() in /home2/threeced/public_html/learn/wp-content/themes/enfold-child/header.php on line 5
+[15-Aug-2018 07:49:35 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home2/threeced/public_html/learn/wp-content/themes/enfold-child/404.php on line 7
+[15-Aug-2018 07:49:35 America/Denver] PHP Fatal error:  Call to undefined function avia_get_option() in /home2/threeced/public_html/learn/wp-content/themes/enfold-child/header.php on line 5
+[18-Aug-2018 02:57:37 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home2/threeced/public_html/learn/wp-content/themes/enfold-child/404.php on line 7
+[18-Aug-2018 02:57:37 America/Denver] PHP Fatal error:  Call to undefined function avia_get_option() in /home2/threeced/public_html/learn/wp-content/themes/enfold-child/header.php on line 5
+[18-Aug-2018 02:57:37 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home2/threeced/public_html/learn/wp-content/themes/enfold-child/404.php on line 7
+[18-Aug-2018 02:57:38 America/Denver] PHP Fatal error:  Call to undefined function avia_get_option() in /home2/threeced/public_html/learn/wp-content/themes/enfold-child/header.php on line 5
+[25-Aug-2018 17:16:05 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home2/threeced/public_html/learn/wp-content/themes/enfold-child/404.php on line 7
+[25-Aug-2018 17:16:05 America/Denver] PHP Fatal error:  Call to undefined function avia_get_option() in /home2/threeced/public_html/learn/wp-content/themes/enfold-child/header.php on line 5
+[25-Aug-2018 17:16:05 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home2/threeced/public_html/learn/wp-content/themes/enfold-child/404.php on line 7
+[25-Aug-2018 17:16:05 America/Denver] PHP Fatal error:  Call to undefined function avia_get_option() in /home2/threeced/public_html/learn/wp-content/themes/enfold-child/header.php on line 5
+[16-Dec-2018 20:40:48 America/Denver] PHP Fatal error:  Call to undefined function avia_get_option() in /home2/threeced/public_html/learn/wp-content/themes/enfold-child/header.php on line 5
+[16-Dec-2018 20:40:49 America/Denver] PHP Fatal error:  Call to undefined function avia_get_option() in /home2/threeced/public_html/learn/wp-content/themes/enfold-child/header.php on line 5
+[16-Dec-2018 20:40:49 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home2/threeced/public_html/learn/wp-content/themes/enfold-child/404.php on line 7
+[16-Dec-2018 20:40:50 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home2/threeced/public_html/learn/wp-content/themes/enfold-child/404.php on line 7
+[26-Dec-2018 06:33:11 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home2/threeced/public_html/learn/wp-content/themes/enfold-child/404.php on line 7
+[26-Dec-2018 06:33:11 America/Denver] PHP Fatal error:  Call to undefined function avia_get_option() in /home2/threeced/public_html/learn/wp-content/themes/enfold-child/header.php on line 5
+[26-Dec-2018 06:33:11 America/Denver] PHP Fatal error:  Call to undefined function avia_get_option() in /home2/threeced/public_html/learn/wp-content/themes/enfold-child/header.php on line 5
+[26-Dec-2018 06:33:11 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home2/threeced/public_html/learn/wp-content/themes/enfold-child/404.php on line 7
+[02-Jan-2019 13:25:25 America/Denver] PHP Fatal error:  Call to undefined function avia_get_option() in /home2/threeced/public_html/learn/wp-content/themes/enfold-child/header.php on line 5
+[02-Jan-2019 13:25:26 America/Denver] PHP Fatal error:  Call to undefined function avia_get_option() in /home2/threeced/public_html/learn/wp-content/themes/enfold-child/header.php on line 5
+[08-Jan-2019 11:22:59 America/Denver] PHP Fatal error:  Call to undefined function avia_get_option() in /home2/threeced/public_html/learn/wp-content/themes/enfold-child/header.php on line 5
+[08-Jan-2019 11:22:59 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home2/threeced/public_html/learn/wp-content/themes/enfold-child/404.php on line 7
+[08-Jan-2019 11:22:59 America/Denver] PHP Fatal error:  Call to undefined function avia_get_option() in /home2/threeced/public_html/learn/wp-content/themes/enfold-child/header.php on line 5
+[08-Jan-2019 11:22:59 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home2/threeced/public_html/learn/wp-content/themes/enfold-child/404.php on line 7
+[13-Jan-2019 18:02:49 America/Denver] PHP Fatal error:  Call to undefined function avia_get_option() in /home2/threeced/public_html/learn/wp-content/themes/enfold-child/header.php on line 5
+[13-Jan-2019 18:02:49 America/Denver] PHP Fatal error:  Call to undefined function avia_get_option() in /home2/threeced/public_html/learn/wp-content/themes/enfold-child/header.php on line 5
+[13-Jan-2019 18:02:50 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home2/threeced/public_html/learn/wp-content/themes/enfold-child/404.php on line 7
+[13-Jan-2019 18:02:51 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home2/threeced/public_html/learn/wp-content/themes/enfold-child/404.php on line 7
+[13-Feb-2019 01:40:42 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home2/threeced/public_html/learn/wp-content/themes/enfold-child/404.php:7
+Stack trace:
+#0 {main}
+  thrown in /home2/threeced/public_html/learn/wp-content/themes/enfold-child/404.php on line 7
+[13-Feb-2019 01:40:42 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function avia_get_option() in /home2/threeced/public_html/learn/wp-content/themes/enfold-child/header.php:5
+Stack trace:
+#0 {main}
+  thrown in /home2/threeced/public_html/learn/wp-content/themes/enfold-child/header.php on line 5

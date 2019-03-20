@@ -1,0 +1,18 @@
+[02-Feb-2019 16:01:38 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_directory() in /home2/threeced/public_html/learn/wp-content/themes/enfold/framework/php/inc-autoconfig.php:23
+Stack trace:
+#0 {main}
+  thrown in /home2/threeced/public_html/learn/wp-content/themes/enfold/framework/php/inc-autoconfig.php on line 23
+[02-Feb-2019 16:01:50 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /home2/threeced/public_html/learn/wp-content/themes/enfold/framework/php/class-tgm-plugin-activation.php:161
+Stack trace:
+#0 /home2/threeced/public_html/learn/wp-content/themes/enfold/framework/php/class-tgm-plugin-activation.php(1017): TGM_Plugin_Activation->__construct()
+#1 /home2/threeced/public_html/learn/wp-content/themes/enfold/framework/php/class-tgm-plugin-activation.php(1027): TGM_Plugin_Activation::get_instance()
+#2 {main}
+  thrown in /home2/threeced/public_html/learn/wp-content/themes/enfold/framework/php/class-tgm-plugin-activation.php on line 161
+[02-Feb-2019 16:02:07 America/Chicago] PHP Warning:  require_once(ABSPATHwp-admin/includes/import.php): failed to open stream: No such file or directory in /home2/threeced/public_html/learn/wp-content/themes/enfold/framework/php/inc-avia-importer.php on line 8
+[02-Feb-2019 16:02:07 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'ABSPATHwp-admin/includes/import.php' (include_path='.:/opt/php70/lib/php') in /home2/threeced/public_html/learn/wp-content/themes/enfold/framework/php/inc-avia-importer.php on line 8
+[14-Mar-2019 12:36:03 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /home2/threeced/public_html/learn/wp-content/themes/enfold/framework/php/class-tgm-plugin-activation.php:161
+Stack trace:
+#0 /home2/threeced/public_html/learn/wp-content/themes/enfold/framework/php/class-tgm-plugin-activation.php(1017): TGM_Plugin_Activation->__construct()
+#1 /home2/threeced/public_html/learn/wp-content/themes/enfold/framework/php/class-tgm-plugin-activation.php(1027): TGM_Plugin_Activation::get_instance()
+#2 {main}
+  thrown in /home2/threeced/public_html/learn/wp-content/themes/enfold/framework/php/class-tgm-plugin-activation.php on line 161

@@ -1,0 +1,4 @@
+[03-Feb-2019 14:31:18 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function current_theme_supports() in /home2/threeced/public_html/learn/wp-content/themes/enfold/framework/php/auto-updates/auto-updates.php:6
+Stack trace:
+#0 {main}
+  thrown in /home2/threeced/public_html/learn/wp-content/themes/enfold/framework/php/auto-updates/auto-updates.php on line 6

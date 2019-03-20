@@ -1,0 +1,1 @@
+[03-Feb-2019 12:36:32 America/Chicago] PHP Fatal error:  Class 'WP_Import' not found in /home2/threeced/public_html/learn/wp-content/themes/enfold/framework/php/wordpress-importer/avia-import-class.php on line 2
